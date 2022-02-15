@@ -1,0 +1,17 @@
+.results-container {
+  display: flex;
+  position: absolute;
+  left: 39%;
+  top: 40%;
+}
+
+#resultsBoard {
+  position: absolute;
+  left: 3%;
+  font-size: 27px;
+  top: 4%;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+}

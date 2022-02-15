@@ -1,0 +1,55 @@
+.card {
+  margin: 10px 20px;
+  width: fit-content;
+  position: relative;
+  border-radius: 15px;
+  border: 0.25px solid black !important;
+  overflow: hidden;
+  display: flex;
+  align-self: flex-end;
+  font-family: "Amaranth", sans-serif;
+}
+
+.movie-title {
+  background-color: rgba(0, 0, 0, 0.95);
+  position: absolute;
+  max-height: 100px;
+  min-height: 75px;
+  bottom: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  overflow: hidden;
+  width: fit-content;
+}
+
+#card-title {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#minor-text {
+  color: rgb(160, 159, 159);
+  font-size: 15px;
+  text-align: center;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .card-image {
+  opacity: 0.95;
+}
+
+.card:hover .movie-title {
+  color: rgb(192, 192, 192) !important;
+}

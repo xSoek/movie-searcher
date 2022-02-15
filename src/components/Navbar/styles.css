@@ -1,0 +1,56 @@
+.navbar-container {
+  width: 100%;
+  min-width: fit-content;
+  padding: 0.15% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 10px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.brand-logo {
+  margin-left: 1%;
+}
+
+.theme-mode {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+}
+
+.theme-mode:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 10px 0.75px #252525);
+  padding-bottom: 20px;
+}
+
+.navbar-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 3%;
+}
+
+#linkedin {
+  margin-right: 10%;
+  filter: saturate(0%);
+  transition: all 1.25s ease;
+}
+
+#github {
+  filter: invert(1);
+  transition: all 1s ease;
+}
+
+#linkedin:hover {
+  filter: saturate(100%);
+}
+
+#github:hover {
+  filter: invert(0);
+}

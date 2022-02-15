@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.search-container p {
+  margin-left: 1%;
+}
+
+.input-container {
+  border: 0px;
+  border-radius: 9px;
+  font-size: 20px;
+  font-family: "Amaranth", sans-serif;
+  height: 30px;
+  width: 400px;
+  text-align: center;
+  box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.75);
+}
+
+.input-container:focus {
+  border: 0px;
+  box-shadow: inset 0px 3px 4px rgba(148, 148, 148, 0.75);
+  outline: none;
+}

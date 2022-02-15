@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+
+  text-decoration: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+
+  width: 100%;
+  align-self: flex-end;
+}
+
+.pagination-btn {
+  padding: 10px;
+  margin: 10px;
+  height: fit-content;
+  min-width: 35px;
+  border: none;
+  outline: none;
+  transition: all 0.45s;
+}
+
+.pagination-btn:hover {
+  background-color: rgb(235, 162, 53) !important;
+  color: black !important;
+}
